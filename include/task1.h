@@ -5,14 +5,13 @@
 template <typename T> 
 void msort(T* Arr, int N)
 {
-	int center = N / 2;
 	if (N > 1)  msort(Arr, N / 2); 
 	if (N > 1)  msort(Arr + (N / 2), N - (N / 2)); 
 	
 	T*NewArr = new T[N];
 
 	int i = 0;   
-	int j = center;
+	int j = N/2;
 
 	for (int k = 0; k < N; k++)
 	{
