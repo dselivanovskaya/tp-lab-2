@@ -18,4 +18,5 @@ int main()
 		cout << mas[i] << " ";
 	cout << endl;
 	delete[]mas;
+	return 0;
 }

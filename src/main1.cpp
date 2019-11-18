@@ -12,5 +12,6 @@ int main()
 		cout << Arr[i] << " ";
 	}
 	cout << endl;
+	return 0;
 }
 

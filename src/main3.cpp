@@ -26,4 +26,5 @@ int main()
 	for (int i = 0; i < N; i++) {
 		cout << Arr[i] << endl;
 	}
+	return 0;
 }

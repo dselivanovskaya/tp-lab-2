@@ -1,5 +1,6 @@
 #pragma once
-#include <string.h>
+#include <cstring>
+#include <cstddef>
 
 template <typename T> 
 void msort(T* Arr, int N)
@@ -20,7 +21,8 @@ void msort(T* Arr, int N)
 			NewArr[k] = Arr[i];
 			i++;
 		}
-		else {
+		else 
+		{
 			NewArr[k] = Arr[j];
 			j++;
 		}
