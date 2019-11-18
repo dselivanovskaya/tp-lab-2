@@ -35,14 +35,13 @@ void msort(T* Arr, int N)
 template <>
 void msort(char** Arr, int N)
 {
-	int center = N / 2; 
 	if (N > 1)  msort(Arr, N / 2); 
 	if (N > 1)  msort(Arr + (N / 2), N - (N / 2)); 
 
 	char**NewArr = new char*[N];
 
 	int i = 0;   
-	int j = center; 
+	int j = N/2; 
 
 	for (int k = 0; k < N; k++)
 	{
