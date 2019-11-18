@@ -1,6 +1,8 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include "task3.h"
 #include <iostream>
+#include <cstring>
+#include <cstddef>
 using namespace std;
 
 template<class T>
